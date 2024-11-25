@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vizayanagaram</title>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+</head>
+<body>
+    <div id="nav-place">
+    </div>
+    <p style="padding-top: 100px;"></p>
+    <h2  style=" background-color: rgb(50, 74, 137);
+    color: rgb(254, 252, 252);
+    padding-left: 45%;"> Vidios</h2>
+        <div style="display: grid; grid-template-columns: 1fr 1fr 1fr;row-gap: 7px;column-gap:11px;margin-bottom: 10px;">
+            <iframe width="400" height="315" src="https://www.youtube.com/embed/QHVor7WPNC4?si=Uit9nu0OEQg9nbJ6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe width="400" height="315" src="https://www.youtube.com/embed/srOJ4tIKj7U?si=gHHwQQ1HHXXh4GNS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe width="400" height="315" src="https://www.youtube.com/embed/xk3nk6MAntY?si=p7vU4dGaXPy9XNpB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe width="400" height="315" src="https://www.youtube.com/embed/wvjj3lzTJ7E?si=82MiQM0iPjB3ZEoc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </div> <div id="nav-placeholder">
+    </div>
+    
+    <script>
+    $(function(){
+      $("#nav-placeholder").load("footer.html");
+      $("#nav-place").load("nav.html");
+    });
+    </script>
+</body>
+</html>

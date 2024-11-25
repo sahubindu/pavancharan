@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact us </title>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <style>
+        .contactheading{
+   background-color: rgb(50, 74, 137);
+   padding-left: 45%;
+   color: rgb(254, 252, 252);
+}
+.maindiv{
+   display: flex;
+}
+.maindiv1{
+   margin-top: 2%;
+   margin-left: 20%;
+}
+.maindiv2{
+   margin-top: 0%;
+   margin-left: 20%;
+   margin-bottom: 10px;
+}
+label{
+   font-size: 15px;
+}
+input{
+   height: 30px;
+   width: 160%;
+   border-radius: 4px;
+}
+textarea{
+   height: 70px;
+   width: 160%;
+   border-radius: 4px;
+}
+button{
+   padding: 10px;
+   border-radius: 10px;
+   border: none;
+   background-color: rgba(7, 119, 30, 0.781);
+   font-size: 15px;
+}
+.pmain{
+    padding-top: 100px;
+}
+    </style>
+    
+</head>
+<body>
+    <div id="nav-place">
+    </div>
+    <p class="pmain"></p>
+    <h1 class="contactheading">
+        Contact Us
+    </h1>
+    <div class="maindiv">
+        <div class="maindiv1">
+      <h3>Address</h3>
+      <p>Banjara Hills, Hyderabad -500028.<br>
+        Phone : +91 9959090908.</p>
+        <a href=""><p style="color: black;">E-mail : pavan.bonila@gmail.com </p></a>
+    </div>
+    <div  class="maindiv2">
+        <form>
+            <h3>Reach Us</h3>
+            <label>Full Name</label><br>
+            <input type="text" /><br><br>
+            <label>Email</label><br>
+            <input type="text" /><br><br>
+            <label>Phone number</label><br>
+            <input type="text" /><br><br>
+            <label>Enter Message</label><br>
+            <textarea></textarea><br>
+            <button>Send Message</button>
+            
+        </form>
+
+    </div>
+</div>
+</div> <div id="nav-placeholder">
+</div>
+
+<script>
+$(function(){
+  $("#nav-placeholder").load("footer.html");
+  $("#nav-place").load("nav.html");
+});
+</script>
+</body>
+</html>

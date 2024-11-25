@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <style>
+.images{
+    display : grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    row-gap:10px;
+    margin-bottom: 10px;
+}
+    </style>
+</head>
+<body>
+    <div id="nav-place">
+    </div>
+    <div style="padding-top: 100px;">
+        <h1 style=" background-color: rgb(50, 74, 137);
+        color: rgb(254, 252, 252);
+        padding-left: 45%;">Photos </h1>
+    </div>
+    <div class="images">
+        <div><img height="200px" width="300px" src="http://www.pavansinger.com/images/g11.jpg" alt=""></div>
+        <div><img height="200px" width="300px"  src="http://www.pavansinger.com/images/020.jpg" alt=""></div>
+        <div><img  height="200px" width="300px" src="http://www.pavansinger.com/images/06.jpg" alt=""></div>
+        <div><img height="200px" width="300px" src="http://www.pavansinger.com/images/011.jpg" alt=""></div>
+        <div><img height="200px" width="300px" src="http://www.pavansinger.com/images/012.jpg" alt=""></div>
+        <div><img height="200px" width="300px" src="http://www.pavansinger.com/images/015.jpg" alt=""></div>
+        <div><img height="200px" width="300px" src="http://www.pavansinger.com/images/G3.jpg" alt=""></div>
+        <div><img height="200px" width="300px" src="http://www.pavansinger.com/images/02.jpg" alt=""></div>
+        
+
+    </div>
+</div> <div id="nav-placeholder">
+</div>
+
+<script>
+$(function(){
+  $("#nav-placeholder").load("footer.html");
+  $("#nav-place").load("nav.html");
+});
+</script>
+</body>
+</html>
